@@ -14,7 +14,6 @@ class ThemeContextProvider extends Component {
             <ThemeContext.Provider value={{...this.state}}>
                 {this.props.children}
             </ThemeContext.Provider>
-
             </div>
         )
     }
